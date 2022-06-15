@@ -38,7 +38,6 @@ pub(super) fn init() {
 
     manager::add(Process::from_initrd("init"));
     manager::add(Process::from_function(sysproc::main));
-    manager::add(Process::from_initrd("vm_server"));
     manager::add(Process::from_initrd("tty"));
 
     #[cfg(test_on_qemu)]
