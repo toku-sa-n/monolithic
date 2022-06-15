@@ -1,7 +1,3 @@
-#![no_std]
-
-extern crate rlibc as _;
-
 mod font;
 mod vram;
 mod writer;
@@ -57,9 +53,4 @@ fn handle_write(message: &Message) {
     }
 
     ipc::send(message.header.sender_pid, Message::default());
-}
-
-#[panic_handler]
-fn panic(_: &core::panic::PanicInfo<'_>) -> ! {
-    loop {}
 }
