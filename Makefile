@@ -46,7 +46,7 @@ INITRD	=	$(BUILD_DIR)/initrd.cpio
 LIBS_DIR	=	libs
 LIBS_SRCS	=	$(shell find $(LIBS_DIR)/)
 
-ISO_FILE	=	$(BUILD_DIR)/antei.iso
+ISO_FILE	=	$(BUILD_DIR)/monolithic.iso
 
 QEMU	=	qemu-system-x86_64
 QEMU_PARAMS	=	-drive if=pflash,format=raw,file=OVMF_CODE.fd,readonly=on	\
