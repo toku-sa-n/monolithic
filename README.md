@@ -1,6 +1,6 @@
-# Antei
+# Monolithic
 
-Antei is an experimental Operating System for the `x86_64` architecture written in stable Rust.
+Monolithic is an experimental Operating System for the `x86_64` architecture written in stable Rust.
 
 ## Dependencies
 
