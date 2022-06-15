@@ -20,7 +20,6 @@ members = [
     "libs/uefi",
     "libs/vm",
     "servers/init",
-    "servers/vm_server",
 ]
 
 [profile.dev]
