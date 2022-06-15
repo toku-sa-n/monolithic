@@ -20,8 +20,6 @@ members = [
     "libs/uefi",
     "libs/vm",
     "servers/init",
-    "servers/pm",
-    "servers/vfs",
     "servers/vm_server",
 ]
 
