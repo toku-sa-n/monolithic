@@ -5,6 +5,7 @@ extern crate rlibc as _;
 
 mod gdt;
 mod interrupt;
+mod tty;
 #[macro_use]
 mod io;
 mod boot_info;
